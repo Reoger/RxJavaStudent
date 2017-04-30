@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context="reoger.hut.com.okhttp.MainActivity">
+<TextView
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:padding="10dp"
+	android:text="showData"
+	android:gravity="center"
+	android:id="@+id/text_data"/>
+	
+    <Button
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="get"
+	    android:id="@+id/but_get"/>
+  <Button
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content"
+	  android:text="post"
+	  android:id="@+id/bu_post"/>
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="POST_STRING"
+		android:id="@+id/bu_post_string"/>
+		<Button
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="POST_file"
+			android:id="@+id/bu_post_file"/>
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="doUpload"
+		android:id="@+id/bu_upload"/>
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="doDownLoad"
+		android:id="@+id/bu_download"/>
+	<ImageView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:scaleType="centerCrop"
+		android:id="@+id/downImage"/>
+</LinearLayout>
