@@ -1,6 +1,8 @@
 # RxJavaStudent
 >OKHttp是一款高效的HTTP客户端，支持连接同一地址的链接共享同一个socket，通过连接池来减小响应延迟，还有透明的GZIP压缩，请求缓存等优势 。今天就记录以下使用Okhttp的心得和体会。
 
+[![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg)](http://blog.csdn.net/sunmenggmail/article/details/11994013)
+
 ---
 首先先列出我的参考资料：
 * [慕课大神hyman视屏资料](http://www.imooc.com/video/13576)
